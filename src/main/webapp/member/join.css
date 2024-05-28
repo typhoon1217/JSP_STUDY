@@ -1,0 +1,89 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+form {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+table {
+  width: 95%;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}
+
+td.title {
+  width: 20%;
+  padding-left: 5px;
+  border-left: 1px solid white;
+  background-color: #f4f4f4;
+  text-align: center;
+  font-size: 15px;
+}
+
+td.content {
+  width: 80%;
+  padding: 5px 5px 10px 5px;
+}
+
+td.content1 {
+  width: 80%;
+  padding: 5px 5px 10px 5px;
+  font-size: 11px;
+}
+
+td>span {
+  font-size: 8px;
+}
+
+input {
+  border: 1px solid lightgray;
+  margin: 8px;
+  height: 27px;
+  border-radius: 2px;
+  background-color: #f4f4f4;
+
+}
+
+input.request {
+  background-image: url(./wrest.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+table#one>tr#tr1>div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+span.span1 {
+  border: 1px solid black;
+  background-color: #ccc;
+}
+
+div.end {
+  text-align: center;
+}
