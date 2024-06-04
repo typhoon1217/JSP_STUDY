@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+	front-size: 9pt; color:black; line-height: 160%; front-family:  Geogia, Serif;
+}
+td{
+	front-size: 9pt; color:black; line-height: 160%; front-family:  Geogia, Serif;
+}
+select{
+	front-size: 9pt; color:black; line-height: 160%; front-family:  Geogia, Serif;
+}
+div{
+	front-size: 9pt; color:black; line-height: 160%; front-family:  Geogia, Serif;
+}	
+from{
+	front-size: 9pt; color:black; line-height: 160%; front-family:  Geogia, Serif;
+}
+textarea{
+	border-right: 1px solid #999999; border-top: 1px solid #999999;
+	font-size:9pt; border-left:1px solid #999999; font-family: Geogia, Serif;
+	backgrount-color:white
+}
+input{
+	border-right: 1px solid #999999; border-top: 1px solid #999999;
+	font-size: 9pt; border-left: 1px solid #999999; color:black;
+	border-bottom: 1px solid #999999; font-family: Geogia, Serif;
+	background-color: white
+}
+A:link {text-decoration:nonecolor:#696969}
+A:hover{text-decoration:yescolor:#66CCFF}
+A:visited {text-decoration:nonecolor:#330066}
